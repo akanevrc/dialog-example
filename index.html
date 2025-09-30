@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- dialogを使った例 -->
+  <dialog id="dialog">
+    <p>dialog要素のダイアログです</p>
+    <button id="dialog-close-button" autofocus>閉じる</button>
+  </dialog>
+
+  <!-- divを使った例 -->
+  <div id="div-dialog-bg" class="dialog-bg inactive">
+    <div id="div-dialog" class="dialog">
+      <p>div要素のダイアログです</p>
+      <button id="div-dialog-close-button" autofocus>閉じる</button>
+    </div>
+  </div>
+
+  <!-- ダイアログを開くボタン -->
+  <button id="dialog-open-button">dialog要素</button>
+  <button id="div-dialog-open-button">div要素</button>
+</body>
+
+</html>

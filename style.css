@@ -1,0 +1,35 @@
+// <dialog>用
+::backdrop {
+  background: rgba(128, 128, 128, 0.5);
+}
+
+// <div>背景用
+.dialog-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(128, 128, 128, 0.5);
+}
+
+// <div>背景用
+.inactive {
+  display: none;
+}
+
+// <div>用
+.dialog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 1rem;
+  width: 300px;
+  height: 100px;
+  border: 2px solid black;
+  background: white;
+}
