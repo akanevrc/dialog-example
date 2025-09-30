@@ -1,9 +1,9 @@
-// <dialog>用
+/* <dialog>用 */
 ::backdrop {
   background: rgba(128, 128, 128, 0.5);
 }
 
-// <div>背景用
+/* <div>背景用 */
 .dialog-bg {
   display: flex;
   justify-content: center;
@@ -16,12 +16,12 @@
   background: rgba(128, 128, 128, 0.5);
 }
 
-// <div>背景用
+/* <div>背景用 */
 .inactive {
   display: none;
 }
 
-// <div>用
+/* <div>用 */
 .dialog {
   display: flex;
   flex-direction: column;
